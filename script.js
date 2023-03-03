@@ -7,6 +7,7 @@ function countWords(e) {
 
   const inputVal = input.value;
   let arr = inputVal.split(` `);
+	arr.trim();
 
   h3.textContent = arr.length;
 }
